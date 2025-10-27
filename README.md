@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# QuickJob
 
-## Getting Started
+日本の主要求人サイトを一度に検索できるWebアプリ
 
-First, run the development server:
+## 特徴
+
+- 🚀 **一括検索**: 10の主要求人サイトを同時に検索
+- 📱 **PWA対応**: スマホのホーム画面に追加可能
+- 💾 **自動保存**: 検索条件を自動保存
+- 🎨 **モダンUI**: シンプルで使いやすいデザイン
+
+## 対応サイト
+
+- Indeed
+- 求人ボックス
+- スタンバイ
+- リクナビNEXT
+- doda
+- マイナビ転職
+- エン転職
+- ビズリーチ
+- キャリアインデックス
+- Green
+
+## 開発
 
 ```bash
+# 依存関係のインストール
+npm install
+
+# 開発サーバー起動
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# ビルド
+npm run build
+
+# 本番サーバー起動
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+開発サーバー: [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## デプロイ
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Vercel (推奨)
 
-## Learn More
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/quickjob-web)
 
-To learn more about Next.js, take a look at the following resources:
+1. GitHubリポジトリをVercelに接続
+2. 自動的にビルド・デプロイされます
+3. カスタムドメイン設定可能
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### その他のプラットフォーム
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Netlify
+- Cloudflare Pages
+- AWS Amplify
 
-## Deploy on Vercel
+すべてのプラットフォームで動作します。
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 技術スタック
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Next.js 15** - React フレームワーク
+- **TypeScript** - 型安全性
+- **Tailwind CSS** - スタイリング
+- **PWA** - プログレッシブWebアプリ
+
+## ライセンス
+
+MIT
+# quickjob

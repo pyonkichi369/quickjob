@@ -221,8 +221,7 @@ export default function JobSearch() {
             disabled={isSearching}
             className="px-8 py-4 text-white font-semibold rounded-lg transition-all duration-200 disabled:opacity-60 disabled:cursor-not-allowed whitespace-nowrap"
             style={{
-              backgroundColor: '#2164f3',
-              ':hover': { backgroundColor: '#1557da' }
+              backgroundColor: '#2164f3'
             }}
             onMouseOver={(e) => e.currentTarget.style.backgroundColor = '#1557da'}
             onMouseOut={(e) => e.currentTarget.style.backgroundColor = '#2164f3'}
